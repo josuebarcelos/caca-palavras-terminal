@@ -2,6 +2,7 @@
   "name": "caca-palavras-terminal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://josue-barcelos.github.io/caca-palavras-terminal/",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.2.0",
@@ -13,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
